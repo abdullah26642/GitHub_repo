@@ -1,0 +1,10 @@
+split,cls,images,with_infection_mask,near_duplicate_in_earlier_split,mean_lung_area_fraction
+Train,COVID-19,7658,1864,0,0.231
+Train,Non-COVID,7208,0,0,0.223
+Train,Normal,6849,0,0,0.253
+Val,COVID-19,1903,466,15,0.234
+Val,Non-COVID,1802,0,0,0.214
+Val,Normal,1712,0,0,0.251
+Test,COVID-19,2395,583,21,0.237
+Test,Non-COVID,2253,0,0,0.216
+Test,Normal,2140,0,2,0.248

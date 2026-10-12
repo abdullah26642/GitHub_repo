@@ -1,0 +1,18 @@
+backbone,head,head_description,target_layer_shape,fc_input_features,total_params_M,head_params,head_affine_in_A,theory_hirescam_complete,theory_gradcam_equals_hirescam,check_hirescam_relerr,check_gradcam_relerr,check_gradcam_hirescam_maxdiff
+ResNet-34,default,torchvision head (GAP->Linear; ConvNeXt GAP->LN->Linear; VGG-19 MLP),512x7x7,512,21.29,1539,True,True,True,5.457860652313684e-07,4.775628212883021e-07,1.5555009724721458e-07
+ResNet-34,flat,backbone unchanged; final feature map -> Flatten -> Linear,512x7x7,25088,21.36,75267,True,True,False,3.71066789739416e-07,0.49678802490234375,1.0456112623214722
+ResNet-34,flat_trunc,last normalization/activation removed (VGG-19: last ReLU and max-pool removed) -> Flatten -> Linear,512x7x7,25088,21.36,75267,True,True,False,7.877141001699783e-07,0.4737464487552643,1.0368568897247314
+ResNet-34,flat_lamprou,last residual block replaced by plain conv block (Lamprou et al. 2024) -> Flatten -> Linear,512x7x7,25088,21.36,75267,True,True,False,1.1434398317078376e-07,0.3989368975162506,0.9533298015594482
+ResNet-50,default,torchvision head (GAP->Linear; ConvNeXt GAP->LN->Linear; VGG-19 MLP),2048x7x7,2048,23.51,6147,True,True,True,1.1776181452205492e-07,1.1776181452205492e-07,1.633231647701905e-07
+ResNet-50,flat,backbone unchanged; final feature map -> Flatten -> Linear,2048x7x7,100352,23.81,301059,True,True,False,0.0,0.4442077875137329,0.9821072816848755
+ResNet-50,flat_trunc,last normalization/activation removed (VGG-19: last ReLU and max-pool removed) -> Flatten -> Linear,2048x7x7,100352,23.8,301059,True,True,False,9.021413660548205e-08,0.21647144854068756,1.2693943977355957
+ResNet-50,flat_lamprou,last residual block replaced by plain conv block (Lamprou et al. 2024) -> Flatten -> Linear,2048x7x7,100352,23.8,301059,True,True,False,3.7708819036197383e-06,4.873544216156006,1.0109459161758423
+VGG-19,default,torchvision head (GAP->Linear; ConvNeXt GAP->LN->Linear; VGG-19 MLP),512x7x7,25088,139.58,119558147,False,False,False,2.9903194904327393,2.966870069503784,1.0023077726364136
+VGG-19,flat,backbone unchanged; final feature map -> Flatten -> Linear,512x7x7,25088,20.1,75267,True,True,False,7.633887122437955e-08,0.37206795811653137,0.9621602892875671
+VGG-19,flat_trunc,last normalization/activation removed (VGG-19: last ReLU and max-pool removed) -> Flatten -> Linear,512x14x14,100352,20.33,301059,True,True,False,7.987318326740933e-07,0.08752787113189697,0.9911945462226868
+DenseNet-121,default,torchvision head (GAP->Linear; ConvNeXt GAP->LN->Linear; VGG-19 MLP),1024x7x7,1024,6.96,3075,True,True,True,7.498616696466343e-07,8.123500947476714e-07,2.1233009306342865e-07
+DenseNet-121,flat,backbone unchanged; final feature map -> Flatten -> Linear,1024x7x7,50176,7.1,150531,True,True,False,9.398978306762729e-08,1.0173994302749634,0.9210603833198547
+DenseNet-121,flat_trunc,last normalization/activation removed (VGG-19: last ReLU and max-pool removed) -> Flatten -> Linear,1024x7x7,50176,7.1,150531,True,True,False,7.599081754960935e-07,0.8809501528739929,1.0769214630126953
+ConvNeXt-T,default,torchvision head (GAP->Linear; ConvNeXt GAP->LN->Linear; VGG-19 MLP),768x7x7,768,27.82,3843,False,False,True,0.9999715089797974,0.9999714493751526,2.5578873419362935e-07
+ConvNeXt-T,flat,backbone unchanged; final feature map -> Flatten -> Linear,768x7x7,37632,27.93,112899,True,True,False,3.584144394608302e-07,1.3715057373046875,1.032163143157959
+ConvNeXt-T,flat_trunc,last normalization/activation removed (VGG-19: last ReLU and max-pool removed) -> Flatten -> Linear,768x7x7,37632,27.93,112899,True,True,False,1.5678896261306363e-06,3.74513578414917,0.9778223633766174

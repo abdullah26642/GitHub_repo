@@ -1,0 +1,128 @@
+model,method,randomization_spearman_head,randomization_spearman_head+last_stage
+Ensemble (all5),Grad-CAM,,
+Ensemble (all5),HiResCAM,,
+Ensemble (all5),Integrated Gradients,,
+Ensemble (all5),Random,,
+Ensemble (all5),RISE,,
+Ensemble (top3),Grad-CAM,,
+Ensemble (top3),HiResCAM,,
+Ensemble (top3),Integrated Gradients,,
+Ensemble (top3),Random,,
+Ensemble (top3),RISE,,
+ConvNeXt-T · Default head,Grad-CAM,0.002904030156301259,-0.056777919461327285
+ConvNeXt-T · Default head,Grad-CAM++,0.06255442544661301,0.037240560430881565
+ConvNeXt-T · Default head,HiResCAM,0.0029039460404767015,-0.056776644401519784
+ConvNeXt-T · Default head,Integrated Gradients,0.808624099620442,0.7918055476458916
+ConvNeXt-T · Default head,LayerCAM,0.1013795869550429,0.056342582417843276
+ConvNeXt-T · Default head,Random,,
+ConvNeXt-T · Default head,RISE,,
+ConvNeXt-T · Default head,Score-CAM,,
+ConvNeXt-T · Default head,XGrad-CAM,0.002901593612381383,-0.05677714672201552
+ConvNeXt-T · Flatten head,Grad-CAM,-0.21820888382108192,-0.07796491990248457
+ConvNeXt-T · Flatten head,Grad-CAM++,-0.15783311047812482,0.002238625756328518
+ConvNeXt-T · Flatten head,HiResCAM,0.03376943037043949,-0.02154765773474018
+ConvNeXt-T · Flatten head,Integrated Gradients,0.7673423933081831,0.7430776699390162
+ConvNeXt-T · Flatten head,LayerCAM,0.022922974158786694,0.023031793336149773
+ConvNeXt-T · Flatten head,Random,,
+ConvNeXt-T · Flatten head,RISE,,
+ConvNeXt-T · Flatten head,Score-CAM,,
+ConvNeXt-T · Flatten head,XGrad-CAM,-0.04438905420621498,0.0003504251865008754
+"ConvNeXt-T · Flatten, truncated backbone",Grad-CAM,,
+"ConvNeXt-T · Flatten, truncated backbone",HiResCAM,,
+"ConvNeXt-T · Flatten, truncated backbone",Random,,
+DenseNet-121 · Default head,Grad-CAM,0.15116439373572899,-0.06327967360228623
+DenseNet-121 · Default head,Grad-CAM++,0.9303722350856574,0.20655072257217236
+DenseNet-121 · Default head,HiResCAM,0.15116352689602294,-0.06328040830801292
+DenseNet-121 · Default head,Integrated Gradients,0.7280549750997846,0.6529775009455661
+DenseNet-121 · Default head,LayerCAM,0.951919137388559,0.2746155595707933
+DenseNet-121 · Default head,Random,,
+DenseNet-121 · Default head,RISE,,
+DenseNet-121 · Default head,Score-CAM,,
+DenseNet-121 · Default head,XGrad-CAM,0.151163759621016,-0.06327992918173585
+DenseNet-121 · Flatten head,Grad-CAM,0.3750647567777156,-0.05173616168977131
+DenseNet-121 · Flatten head,Grad-CAM++,0.9581890740816166,0.5310847491250096
+DenseNet-121 · Flatten head,HiResCAM,0.28763218708434707,0.03185210071333749
+DenseNet-121 · Flatten head,Integrated Gradients,0.7077636659660854,0.6206998144990267
+DenseNet-121 · Flatten head,LayerCAM,0.9431412392345618,0.5144818355877686
+DenseNet-121 · Flatten head,Random,,
+DenseNet-121 · Flatten head,RISE,,
+DenseNet-121 · Flatten head,Score-CAM,,
+DenseNet-121 · Flatten head,XGrad-CAM,0.32615195827289545,0.10360032575166955
+DenseNet-121 · Flatten head · lung-masked,Grad-CAM,,
+DenseNet-121 · Flatten head · lung-masked,HiResCAM,,
+DenseNet-121 · Flatten head · lung-masked,Random,,
+"DenseNet-121 · Flatten, truncated backbone",Grad-CAM,,
+"DenseNet-121 · Flatten, truncated backbone",HiResCAM,,
+"DenseNet-121 · Flatten, truncated backbone",Random,,
+ResNet-34 · Default head,Grad-CAM,-0.0661087761166371,0.10193175044813502
+ResNet-34 · Default head,Grad-CAM++,0.9573952110059217,0.20199848243295646
+ResNet-34 · Default head,HiResCAM,-0.0661083437223552,0.1019329549311089
+ResNet-34 · Default head,Integrated Gradients,0.6986428403307968,0.6181101115006089
+ResNet-34 · Default head,LayerCAM,0.9686120758083396,0.2083519512740098
+ResNet-34 · Default head,Random,,
+ResNet-34 · Default head,RISE,,
+ResNet-34 · Default head,Score-CAM,,
+ResNet-34 · Default head,XGrad-CAM,-0.06610881324012587,0.10193382892142946
+ResNet-34 · Flatten head,Grad-CAM,-0.28852119540882204,-0.11312467463265849
+ResNet-34 · Flatten head,Grad-CAM++,0.965734535948755,0.2520270759971067
+ResNet-34 · Flatten head,HiResCAM,0.3166467758948919,0.14199109849893066
+ResNet-34 · Flatten head,Integrated Gradients,0.6771547061213823,0.606568444945353
+ResNet-34 · Flatten head,LayerCAM,0.9422081993691401,0.28418001875162524
+ResNet-34 · Flatten head,Random,,
+ResNet-34 · Flatten head,RISE,,
+ResNet-34 · Flatten head,Score-CAM,,
+ResNet-34 · Flatten head,XGrad-CAM,0.001679149705916812,-0.00236575497853969
+"ResNet-34 · Flatten, Lamprou block",Grad-CAM,,
+"ResNet-34 · Flatten, Lamprou block",HiResCAM,,
+"ResNet-34 · Flatten, Lamprou block",Random,,
+"ResNet-34 · Flatten, truncated backbone",Grad-CAM,,
+"ResNet-34 · Flatten, truncated backbone",HiResCAM,,
+"ResNet-34 · Flatten, truncated backbone",Random,,
+ResNet-50 · Default head,Grad-CAM,0.09947327650593259,0.05525724168462329
+ResNet-50 · Default head,Grad-CAM++,0.9356731379393796,0.027393830527812676
+ResNet-50 · Default head,HiResCAM,0.09947446434342276,0.05525740897080184
+ResNet-50 · Default head,Integrated Gradients,0.7366151337465536,0.6594978394452053
+ResNet-50 · Default head,LayerCAM,0.957317427768835,0.021367254547541563
+ResNet-50 · Default head,Random,,
+ResNet-50 · Default head,RISE,,
+ResNet-50 · Default head,Score-CAM,,
+ResNet-50 · Default head,XGrad-CAM,0.09947511969836137,0.05525678464941162
+ResNet-50 · Flatten head,Grad-CAM,0.27271231449253514,0.06570426972710969
+ResNet-50 · Flatten head,Grad-CAM++,0.9602566082926681,0.24933154128119586
+ResNet-50 · Flatten head,HiResCAM,0.310481846812606,0.16204124222153085
+ResNet-50 · Flatten head,Integrated Gradients,0.716323805077486,0.649012601980814
+ResNet-50 · Flatten head,LayerCAM,0.9379070751268536,0.26471272416352254
+ResNet-50 · Flatten head,Random,,
+ResNet-50 · Flatten head,RISE,,
+ResNet-50 · Flatten head,Score-CAM,,
+ResNet-50 · Flatten head,XGrad-CAM,0.22771524059046686,0.07304036384345831
+ResNet-50 · Flatten head · lung-masked,Grad-CAM,,
+ResNet-50 · Flatten head · lung-masked,HiResCAM,,
+ResNet-50 · Flatten head · lung-masked,Random,,
+"ResNet-50 · Flatten, Lamprou block",Grad-CAM,,
+"ResNet-50 · Flatten, Lamprou block",HiResCAM,,
+"ResNet-50 · Flatten, Lamprou block",Random,,
+"ResNet-50 · Flatten, truncated backbone",Grad-CAM,,
+"ResNet-50 · Flatten, truncated backbone",HiResCAM,,
+"ResNet-50 · Flatten, truncated backbone",Random,,
+VGG-19 · Default head,Grad-CAM,0.12512288257291104,-0.07446599648192163
+VGG-19 · Default head,Grad-CAM++,0.9524286825092935,0.2814200219376508
+VGG-19 · Default head,HiResCAM,0.24989789084162659,0.041317278433590135
+VGG-19 · Default head,Integrated Gradients,0.5964966703610481,0.5276359860386544
+VGG-19 · Default head,LayerCAM,0.8029321481503101,0.25872914573647987
+VGG-19 · Default head,Random,,
+VGG-19 · Default head,RISE,,
+VGG-19 · Default head,Score-CAM,,
+VGG-19 · Default head,XGrad-CAM,0.11882034334152372,-0.041785740438671115
+VGG-19 · Flatten head,Grad-CAM,0.03281870966744275,-0.05134912914654015
+VGG-19 · Flatten head,Grad-CAM++,0.9758966761286312,0.6019844129830979
+VGG-19 · Flatten head,HiResCAM,0.2991651367804369,0.12189183164802837
+VGG-19 · Flatten head,Integrated Gradients,0.6158168719666307,0.5468940577929662
+VGG-19 · Flatten head,LayerCAM,0.8511293211469922,0.5372057858203744
+VGG-19 · Flatten head,Random,,
+VGG-19 · Flatten head,RISE,,
+VGG-19 · Flatten head,Score-CAM,,
+VGG-19 · Flatten head,XGrad-CAM,0.05789308661768069,-0.04794179126133289
+"VGG-19 · Flatten, truncated backbone",Grad-CAM,,
+"VGG-19 · Flatten, truncated backbone",HiResCAM,,
+"VGG-19 · Flatten, truncated backbone",Random,,
